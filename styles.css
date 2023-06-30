@@ -175,15 +175,27 @@ main .featured-section .banner-text p {
 /* Responsive styles */
 @media screen and (max-width: 868px) {
   header {
-    padding: 5px;
     display: flex;
     justify-content: space-between;
+    padding: 5px;
+  }
+  .logo img {
+    height: 30px;
+  }
+  .grid-item-search {
+    flex: 1;
+    align-items: end;
+  }
+  .search-input {
+    width: 100%;
+  }
+  .search-button {
+    width: 30px;
   }
   .grid-item-account {
     display: flex;
-  }
-  .search-button {
-    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
   }
   .nav-link {
     margin-right: 10px;
