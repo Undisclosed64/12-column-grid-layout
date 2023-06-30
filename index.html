@@ -4,77 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <link rel="stylesheet" href="styles.css" />
   <body>
-    <header class="grid">
-      <h1>12 col grid</h1>
-      <nav>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">Pricing</a>
-      </nav>
+    <header>
+      <div class="grid-item-brand">
+        <a href="#" class="logo">
+          <img src="logo.png" alt="Amazon" />
+        </a>
+      </div>
+      <div class="grid-item-search">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search for products"
+        />
+        <button class="search-button">
+          <img
+            src="https://img.icons8.com/?size=512&id=7695&format=png"
+            alt=""
+          />
+        </button>
+      </div>
+      <div class="grid-item-account">
+        <a href="#" class="nav-link">Hello, Sign in</a>
+
+        <a href="#" class="nav-link cart-link">
+          Cart
+          <span class="cart-count">0</span>
+        </a>
+      </div>
     </header>
-    <main class="grid">
+
+    <main>
       <img
-        src="https://images.unsplash.com/photo-1686284850482-d7701d0e1ba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-        alt=""
+        class="theme-image"
+        src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg"
       />
-      <div class="welcome">
-        <h2>Welcome</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem
-          iure quisquam blanditiis! Tenetur eveniet voluptas rerum modi
-          provident omnis dolor, quibusdam facilis corrupti exercitationem
-          labore tempora placeat iusto eum!Lorem
-        </p>
+      <div class="products-container">
+        <div class="product">
+          <h1>Kindle E readers</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_2X._SY608_CB639752734_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+        <div class="product">
+          <h1>Shop Laptops & Tablets</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_758x608_2X_en_US._SY608_CB418608386_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+        <div class="product">
+          <h1>Home refresh ideas</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/SpringEvent2023/XCM_CUTTLE_1559454_3018199_758x608_2X_en_US._SY608_CB592739737_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+        <div class="product">
+          <h1>For your Fitness Needs</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_2X._SY608_CB639748111_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+
+        <div class="product">
+          <h1>New arrivals in Toys</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_2X._SY608_CB639759849_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+        <div class="product">
+          <h1>Shop activity trackers and smartwatches</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_2X._SY608_CB639922111_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+        <div class="product">
+          <h1>Create with strip lights</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Striplighting_758x608_2X_en_US._SY608_CB418597463_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
+        <div class="product">
+          <h1>Shop Pet supplies</h1>
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_2X._SY608_CB639746708_.jpg"
+            alt=""
+          />
+          <a href="https://www.amazon.com/">Shop now</a>
+        </div>
       </div>
-      <h2>Services</h2>
-      <div class="card">
-        <h3>hello.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et
-          amet eveniet. Quas quo facere magnam culpa a dolore fuga, recusandae
-          necessitatibus excepturi doloribus iste voluptas ut. Laborum, non
-          libero.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis
-          itaque, obcaecati reprehenderit eaque sunt similique sapiente ab, quas
-          ratione molestias quae molestiae dolorem quam modi. Non saepe cum
-          dignissimos.
-        </p>
-      </div>
-      <div class="card">
-        <h3>hello.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et
-          amet eveniet. Quas quo facere magnam culpa a dolore fuga, recusandae
-          necessitatibus excepturi doloribus iste voluptas ut. Laborum, non
-          libero.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis
-          itaque, obcaecati reprehenderit eaque sunt similique sapiente ab, quas
-          ratione molestias quae molestiae dolorem quam modi. Non saepe cum
-          dignissimos.
-        </p>
-      </div>
-      <div class="card">
-        <h3>hello.</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam et
-          amet eveniet. Quas quo facere magnam culpa a dolore fuga, recusandae
-          necessitatibus excepturi doloribus iste voluptas ut. Laborum, non
-          libero.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis
-          itaque, obcaecati reprehenderit eaque sunt similique sapiente ab, quas
-          ratione molestias quae molestiae dolorem quam modi. Non saepe cum
-          dignissimos.
-        </p>
+      <div class="featured-section">
+        <img
+          src="https://m.media-amazon.com/images/I/618IDUskJ+L._AC_SY400_.jpg"
+          alt=""
+        />
+        <div class="banner-text">
+          <h1>Snap 12x18 Black Wood Wall Photo Frame</h1>
+          <p>
+            A timeless flat black frame that holds a 12x18 image without a mat.
+            Contemporary narrow frame profile and flex tab back opening allowing
+            you to easily add and remove photos or art. Each frame includes
+            ready-to-hang durable hangers on the back for vertical or horizontal
+            hanging options.Frame is crafted from durable solid wood.
+            Lightweight protective glass will keep your favorite photos looking
+            great for years.
+          </p>
+        </div>
       </div>
     </main>
   </body>
