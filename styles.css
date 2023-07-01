@@ -201,21 +201,25 @@ main .featured-section .banner-text p {
     margin-right: 10px;
   }
 
-  main .featured-section img {
+  .featured-section img {
     grid-column: 2 / span 10; /* start at column 2 and span 10 columns*/
     margin-bottom: 20px;
   }
-  main .featured-section .banner-text {
-    grid-column: 3 / span 8; /* start from column 3 and span 8 columns*/
+
+  .featured-section .banner-text {
+    grid-column: 3 / span 8; /* start at column 3 and span 8 columns*/
     text-align: center;
   }
-  main .featured-section .banner-text h1 {
+
+  .featured-section .banner-text h1 {
     font-size: 2rem;
   }
-  main .featured-section .banner-text p {
+
+  .featured-section .banner-text p {
     line-height: 24px;
     font-size: 1rem;
   }
+
 }
 @media screen and (max-width: 968px) {
   .products-container {
