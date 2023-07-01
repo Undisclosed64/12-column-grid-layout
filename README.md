@@ -1,4 +1,4 @@
-# Creating a 12 Column Grid Layout in CSS
+# 12 Column Grid Layout Demo
 
 This repository contains the code and resources for the blog post demo on "Creating a 12-Column CSS Grid: A Complete Tutorial" for [LambdaTest](https://www.lambdatest.com/). The blog post provides a step-by-step guide on how to build a responsive 12-column grid layout using CSS.
 
