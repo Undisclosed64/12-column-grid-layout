@@ -13,12 +13,12 @@ To get started with the project, follow these steps:
  1. Clone the repository:
     
    ```shell
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Undisclosed64/12-column-grid-layout.git
   ```
  2. Navigate to the project directory:
 
    ```shell
-    cd your-repo
+    cd 12-column-grid-layout
  ```
    
  3. Open the ``` index.html  ``` file in your preferred web browser to see the grid layout in action.
