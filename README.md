@@ -18,7 +18,7 @@ To get started with the project, follow these steps:
  2. Navigate to the project directory:
 
    ```shell
-    cd 12-column-grid-layout
+   cd 12-column-grid-layout
  ```
    
  3. Open the ``` index.html  ``` file in your preferred web browser to see the grid layout in action.
